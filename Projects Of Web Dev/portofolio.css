@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: end;
+    font-size: 1.00rem;
+}
+ul{
+    display: flex;
+}
+a{
+padding: 15px;
+color: white;
+text-decoration: none;
+
+}
+a#contact{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 9px 25px 10px 25px;
+    background-color: 	#e39e25;
+    box-shadow: 1px 4px 1px rgb(222, 102, 27);
+}
+h4#first{
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: start;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: 'Lugrasimo', cursive;
+}
+/* img#mode{
+ max-height: 40px;
+ 
+} */
+p{
+    color: white;
+    
+}
+p#hi{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+p#archit{
+    font-size: 50px;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: #dc8f09;
+}
+p#exp{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(94, 94, 94);
+}
+p#hire{
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    background-color: 	#e39e25;
+    box-shadow: 1px 4px 1px rgb(222, 102, 27); 
+} 
+img#github{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+}
+img#linkedin{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+}
+img#insta{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 60px;
+    height: 60px;
+}
+img#me{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 50px;
+    float: right;
+}
+img#award{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+p#awe{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+p#service{
+    font-size: 50px;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: #dc8f09;
+}
+p#services{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: rgb(94, 94, 94);
+}
+p#CV{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    background-color: 	#e39e25;
+    box-shadow: 1px 6px 1px rgb(222, 102, 27); 
+} 
+figure#one{
+    height:200px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    /* animation-name: colorchanger;
+    animation-iteration-count: 1;
+    animation-duration: 2s; */
+    
+}
+p#emoji1{
+    padding-top: 35px ;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+}
+figure#two{
+    height:200px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    animation-name: colorchanger;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+p#emoji2{
+    padding-top: 35px ;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+}
+figure#three{
+    height:200px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    /* animation-name: colorchanger;
+    animation-iteration-count:5;
+    animation-duration: 1s; */
+}
+p#emoji3{
+    padding-top: 35px ;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+}
+section#sec1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes colorchanger {
+   from{
+    /* transform: rotate(60deg); */
+    background-color: lightseagreen; 
+   }
+   to{
+    
+   }
+}
+ figure#four{
+    height: 30px;
+    width: 30px;
+    margin-top: 70px;
+    margin-left: 60px;
+    padding: 10px; 
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+h4#second{
+    background-color: white;
+    color: orange;
+}
+p#one{
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 45px;
+}
+p#two{
+    display: flex;
+    color: #e39e25;
+    justify-content: center;
+}
+section#sec2{
+    display: flex;
+    justify-content: center;
+} 
+p#company{
+    font-size: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+img#faang{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 80px;
+    margin-top: 180px;
+    float: right;
+    animation-name: rotation;
+    animation-iteration-count: 8;
+    animation-duration: 2s;
+}
+@keyframes rotation {
+    from{
+transform: rotate(45deg);
+    }
+    to{
+transform: rotate(-60deg);
+}
+}
+p#hiretwo{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    background-color: 	#e39e25;
+    box-shadow: 1px 4px 1px rgb(222, 102, 27); 
+} 
+section#sec3{
+    display: flex;
+    justify-content: center;
+}
+p#project{
+    font-size: 50px;
+    margin-top: 120px;
+    margin-left: 50px;
+    text-align: center;
+}
+p#port{
+    font-size: 50px;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: #dc8f09;
+    text-align: center;
+}
+div#largebox{
+    height:225px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    background-color: rgb(19, 18, 18);
+    box-shadow: 0.7px 2px 2px white;
+}
+p#cat1{
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(19, 18, 18);;
+}
+h4#third{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color:rgb(19, 18, 18); 
+}
+article#box1{
+    width: 70px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    box-shadow: 0.7px 0.7px 2px rgb(127, 238, 218); 
+    color:white;
+    text-align: center;
+}
+div#largebox:hover{
+    transform:scale(1.02);
+    cursor: pointer;
+}
+p#work{
+    display: inline;
+    font-size: 30px;
+}
+p#except{
+    display: inline;
+    font-size: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #dc8f09;
+}
+div#box2{
+    width: 350px;
+    height: 145px;
+    border: 5px solid white;
+    border-radius: 7%;
+    margin: auto;
+    margin-top: 120px;
+    background-color:rgb(19, 18, 18) ;
+}
+img#smallme{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+p#para1{
+    background-color: rgb(19, 18, 18);
+    color: #dc8f09;
+    text-align: center;
+}
+p#para2{
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    margin-top: 3px;
+}
+article#box2{
+    width: 50px;
+    height: 20px;
+    margin-left: 145px;
+    border-radius: 30px;
+    box-shadow: 0.7px 0.7px 2px rgb(245, 189, 189); 
+    color:black;
+    text-align: center;
+    background-color: white;
+}
+p#touch{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+p#contact{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-left: 100px;
+    color: #dc8f09;
+}
+input#name{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 25px;
+    border-radius: 15%;
+    border: 2.5px solid orange;
+}
+input#email{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 25px;
+    border-radius: 15%;
+    border: 2.5px solid orange;
+}
+input#mssg{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 70px;
+    border-radius: 15%;
+    border: 2.5px solid orange;
+    margin-bottom: 9px;
+}
+input{
+    display: block;
+    margin-left: 700px;
+}
+p#sent{
+    margin-top: 25px;
+    margin-left: 770px;
+    width: 30px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+    background-color: 	#e39e25;
+    box-shadow: 1px 4px 1px rgb(222, 102, 27); 
+    text-align: center;
+} 
+div#div3{
+    height: 160px;
+    width: 100%vw;
+    border: 1px solid white;
+    margin-top: 80px;
+    background-color: #dc8f09;
+    border-radius: 30px;
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+img#github2{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
+img#linkedin2{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
+img#insta2{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
